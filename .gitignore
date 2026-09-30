@@ -1,0 +1,58 @@
+# Ignore large dataset artifacts and heavy binary files
+# MRI image folders already included in the repo structure but kept out of git history
+Training/
+Testing/
+
+# Common large files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Large media / scientific data
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.mat
+*.raw
+
+# Model checkpoints and outputs
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.weights
+model_checkpoints/
+checkpoints/
+outputs/
+results/
+logs/
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
