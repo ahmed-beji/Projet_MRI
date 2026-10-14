@@ -1,7 +1,6 @@
 # Ignore large dataset artifacts and heavy binary files
 # MRI image folders already included in the repo structure but kept out of git history
-Training/
-Testing/
+Data/
 
 # Common large files
 *.zip
