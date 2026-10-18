@@ -60,7 +60,7 @@ Afin de garantir la reproductibilité et la gouvernance du modèle, l'intégrali
 ### Architecture Globale & Flux de la Donnée
 Le schéma ci-dessous illustre le parcours d'une IRM, de son téléversement brute jusqu'à la réponse de diagnostic, en mettant en évidence le rôle de chaque brique (Docker, FastAPI, OpenCV, PyTorch, MLflow) :
 
-<img src="assets/architecture_pipeline.png" width="800" alt="Schéma de l'architecture MLOps et du flux de la donnée">
+<img src="assets/flux_données.jpeg" width="800" alt="Schéma de l'architecture MLOps et du flux de la donnée">
 
 ##  Installation et Déploiement (Docker)
 
