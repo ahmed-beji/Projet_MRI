@@ -1,0 +1,13 @@
+# --- Cœur du Deep Learning ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Traitement d'Images ---
+Pillow>=9.5.0
+
+# --- Manipulation de données & Calcul scientifique ---
+numpy>=1.24.0
+
+# --- Visualisation & Suivi ---
+matplotlib>=3.7.0
+tqdm>=4.65.0

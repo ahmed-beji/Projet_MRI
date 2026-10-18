@@ -1,0 +1,41 @@
+# ==========================================
+# 1. ENVIRONNEMENTS ET CACHE PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.venv/
+.ipynb_checkpoints/
+
+# ==========================================
+# 2. DONNÉES CLINIQUES (Interdit de versionner)
+# ==========================================
+Data/
+
+
+# ==========================================
+# 3. POIDS DES MODÈLES (Fichiers trop lourds pour Git)
+# ==========================================
+*.pth
+*.pt
+*.onnx
+meilleur_modele_resnet_cropped.pth
+meilleur_modele_resnet.pth
+meilleur_modele_mri.pth
+*.db
+*.zip
+# ==========================================
+# 4. GOUVERNANCE MLOPS
+# ==========================================
+mlruns/
+
+
+# ==========================================
+# 5. SYSTÈMES ET IDE
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
