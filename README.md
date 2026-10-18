@@ -41,7 +41,7 @@ Le modèle est encapsulé et prêt à être déployé sur n'importe quelle infra
 
 1. **Cloner le dépôt :**
 ```bash
-git clone [https://github.com/ton-pseudo/mri-tumor-classifier-mlops.git](https://github.com/ahmed-beji/Projet_MRI.git)
+git clone (https://github.com/ahmed-beji/Projet_MRI.git)
 cd projet_MRI
 
 
