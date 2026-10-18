@@ -41,8 +41,8 @@ Le modèle est encapsulé et prêt à être déployé sur n'importe quelle infra
 
 1. **Cloner le dépôt :**
 ```bash
-git clone [https://github.com/ton-pseudo/mri-tumor-classifier-mlops.git](https://github.com/ton-pseudo/mri-tumor-classifier-mlops.git)
-cd mri-tumor-classifier-mlops
+git clone [https://github.com/ton-pseudo/mri-tumor-classifier-mlops.git](https://github.com/ahmed-beji/Projet_MRI.git)
+cd projet_MRI
 
 
 ├── app.py                            # Serveur FastAPI (Route /predict et Auto-Crop OpenCV)
